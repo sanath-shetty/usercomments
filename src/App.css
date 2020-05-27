@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+li.nav-item {
+  margin-right: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p.text-center {
+  background: #343a40;
   color: white;
+  padding: 20px 0;
+  margin-bottom: unset;
 }
-
-.App-link {
-  color: #61dafb;
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1.jumbo-h1 {
+  font-size: 60px;
+}
+p.jumbo-p {
+  font-size: 25px;
+  width: 80%;
+  margin-top: 3%;
+}
+.jumbo-link {
+  color: red;
+  text-decoration: underline;
+}
+.flex-box {
+  width: 100%;
+  display: flex;
+  border: 0.5px solid lightgray;
+}
+.left {
+  width: 40%;
+  border-right: 0.5px solid lightgray;
+}
+.right1 {
+  width: 20%;
+  border-right: 0.5px solid lightgray;
+}
+.right2 {
+  width: 20%;
+  border-right: 0.5px solid lightgray;
+}
+.right3 {
+  width: 20%;
+}
+p.country {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+}
+h2.about-head {
+  margin: 2% 80px;
+  font-size: 40px;
+}
+p.about-p {
+  margin: 0 80px;
+  font-size: 20px;
+}
+.gallery-sec {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 1% 5%;
+}
+img.img_prop {
+  width: 18%;
+  margin: 10px;
+}
+p.gallery-head {
+  font-size: 30px;
+  margin: 2% 80px;
+  text-decoration: underline;
+}
+footer.container {
+  margin-top: 2%;
+}
+.cont-left {
+  width: 70%;
+}
+h1.cont_head {
+  margin: 2% 110px;
+}
+.cont-right {
+  width: 30%;
+  border-left: 0.5px solid lightgray;
+}
+.cont-right h3 {
+  margin: 27px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.cont-right p {
+  margin: 15px 0;
+  font-size: 20px;
+}
+.btn.btn-primary {
+  margin-top: 3%;
+  margin-right: 4%;
+}
+.btn.btn-danger {
+  margin-top: 3%;
+}
+h1.srv-head {
+  margin: 2% 80px;
+}
+.box {
+  display: flex;
+  width: 100%;
+}
+.imgbox {
+  width: 60%;
+}
+.imgbox img {
+  width: 100%;
+}
+.info-sec {
+  width: 40%;
+  height: max-content;
+  margin: auto;
+}
+.info-sec h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15%;
+}
+.info-sec p {
+  width: 80%;
+  margin: 7% auto;
+  text-align: justify;
+}
+.btn.btn-info {
+  margin-left: 40%;
+}
+.imgbox img {
+  width: 100%;
+  height: 450px;
+}
+p.cmt-head {
+  font-size: 30px;
+  margin: 2% 80px;
+}
+p.card-title {
+  font-size: 20px;
+  font-weight: bold;
 }
